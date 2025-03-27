@@ -19,23 +19,24 @@
             return;
         }
 
-        int diferencaAnos = dataFormatura.Year - dataAtual.Year;
-        int mesesDiferenca = AjustaMesAno(dataFormatura) - AjustaMesAno(dataAtual);
-        int diasDiferenca = (dataFormatura - dataAtual).Days;
+        // Cálculo exato da diferença
+        int anos = dataFormatura.Year - dataAtual.Year;
+        int meses = dataFormatura.Month - dataAtual.Month;
+        int dias = dataFormatura.Day - dataAtual.Day;
 
-        if (mesesDiferenca < 6)
+        if (dias < 0)
         {
-            Console.WriteLine($"Faltam {mesesDiferenca} meses e {diasDiferenca} dias para sua formatura!");
-            Console.WriteLine("A reta final chegou! Prepare-se para a formatura!");
+            dataFormatura = dataFormatura.AddMonths(-1);
+            dias += DateTime.DaysInMonth(dataFormatura.Year, dataFormatura.Month);
+            meses--;
         }
-        else
-        {
-            Console.WriteLine($"Faltam {diferencaAnos} anos, {mesesDiferenca} meses e {diasDiferenca} dias para sua formatura!");
-        }
-    }
 
-    static int AjustaMesAno(DateTime d)
-    {
-        return d.Year * 12 + d.Month;
+        if (meses < 0)
+        {
+            anos--;
+            meses += 12;
+        }
+
+        Console.WriteLine($"Faltam {anos} anos, {meses} meses e {dias} dias para sua formatura!");
     }
 }
