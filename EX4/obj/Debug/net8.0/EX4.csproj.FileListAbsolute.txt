@@ -1,0 +1,14 @@
+C:\Users\Bruno\source\repos\AT-C#\EX4\bin\Debug\net8.0\EX4.exe
+C:\Users\Bruno\source\repos\AT-C#\EX4\bin\Debug\net8.0\EX4.deps.json
+C:\Users\Bruno\source\repos\AT-C#\EX4\bin\Debug\net8.0\EX4.runtimeconfig.json
+C:\Users\Bruno\source\repos\AT-C#\EX4\bin\Debug\net8.0\EX4.dll
+C:\Users\Bruno\source\repos\AT-C#\EX4\bin\Debug\net8.0\EX4.pdb
+C:\Users\Bruno\source\repos\AT-C#\EX4\obj\Debug\net8.0\EX4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bruno\source\repos\AT-C#\EX4\obj\Debug\net8.0\EX4.AssemblyInfoInputs.cache
+C:\Users\Bruno\source\repos\AT-C#\EX4\obj\Debug\net8.0\EX4.AssemblyInfo.cs
+C:\Users\Bruno\source\repos\AT-C#\EX4\obj\Debug\net8.0\EX4.csproj.CoreCompileInputs.cache
+C:\Users\Bruno\source\repos\AT-C#\EX4\obj\Debug\net8.0\EX4.dll
+C:\Users\Bruno\source\repos\AT-C#\EX4\obj\Debug\net8.0\refint\EX4.dll
+C:\Users\Bruno\source\repos\AT-C#\EX4\obj\Debug\net8.0\EX4.pdb
+C:\Users\Bruno\source\repos\AT-C#\EX4\obj\Debug\net8.0\EX4.genruntimeconfig.cache
+C:\Users\Bruno\source\repos\AT-C#\EX4\obj\Debug\net8.0\ref\EX4.dll
